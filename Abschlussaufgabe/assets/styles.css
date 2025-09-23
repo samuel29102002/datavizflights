@@ -1,0 +1,77 @@
+body {
+  background-color: #05070f;
+  color: #f8f9fa;
+  font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.dashboard-background {
+  min-height: 100vh;
+  background: radial-gradient(circle at top left, rgba(91, 192, 222, 0.25), transparent 45%),
+    radial-gradient(circle at top right, rgba(240, 173, 78, 0.2), transparent 40%),
+    linear-gradient(180deg, rgba(3, 4, 10, 0.95) 0%, rgba(3, 7, 18, 0.92) 100%);
+  padding-bottom: 3rem;
+}
+
+.metric-card {
+  background: rgba(16, 18, 30, 0.9);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 18px;
+  color: #f8f9fa;
+  backdrop-filter: blur(8px);
+}
+
+.metric-card .card-title {
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: #adb5bd;
+}
+
+.metric-value {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 0.75rem;
+}
+
+.controls-card {
+  background: rgba(16, 18, 30, 0.92);
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  color: #f8f9fa;
+}
+
+.controls-card .card-header {
+  background: transparent;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.Select-control,
+.Select-menu-outer,
+.Select-value,
+.Select-placeholder {
+  color: #0b0d17 !important;
+}
+
+.dash-debug-menu {
+  display: none;
+}
+
+.navbar {
+  border-radius: 18px;
+}
+
+.navbar-brand {
+  font-size: 1.35rem;
+  letter-spacing: 0.04em;
+}
+
+.navbar .text-muted {
+  color: rgba(173, 181, 189, 0.85) !important;
+}
+
+.graph-wrapper .js-plotly-plot {
+  border-radius: 18px;
+}
